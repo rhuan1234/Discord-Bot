@@ -1,4 +1,3 @@
-from secreto import seu_token
 from discord.ext import commands
 import discord
 
@@ -29,5 +28,5 @@ async def load_cogs():
         print(f'Erro ao carregar Cog: {e}')
 
 
-TOKEN = seu_token()
+TOKEN = 'seu token'
 client.run(TOKEN)
