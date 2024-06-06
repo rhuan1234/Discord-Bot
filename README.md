@@ -5,7 +5,6 @@ REQUISITOS DO PROJETO:
   -Instale as bibliotecas discord.py e yt-dlp
 
   -No seu servidor do discord, crie os cargos: Bronze, Prata, Ouro e Diamante. Depois, no arquivo commands/cargo.py, pegue o ID de cada um dos cargos e substituia 
-
   nas linhas 63, 65, 67, 69 respectivamente. E novamente nas linhas 91, 93, 95, 97. (Não coloque os IDs entre aspas).
 
 OBJETIVO DO PROJETO:
