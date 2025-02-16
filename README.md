@@ -37,22 +37,24 @@ Este é um **bot para Discord** desenvolvido em **Python**, com diversas funcion
 
 Para rodar o bot corretamente, siga os passos abaixo:  
 
-1️⃣ **Gerar Token do Bot**  
+# 1️⃣ **Gerar Token do Bot**  
 - No [Discord Developer Portal](https://discord.com/developers/applications), crie um bot e copie seu **TOKEN**.  
 - No arquivo `bot.py`, vá até a **linha 31** e atribua o token à variável:  
   ```python
   TOKEN = "seu_token_aqui"
-2️⃣ Instalar Dependências
+  
+# 2️⃣ Instalar Dependências
 
 No terminal, instale as bibliotecas necessárias:
 pip install discord.py yt-dlp
-3️⃣ Configurar Cargos no Servidor
+
+# 3️⃣ Configurar Cargos no Servidor
 
 No seu servidor do Discord, crie os seguintes cargos:
-🥉 Bronze
-🥈 Prata
-🥇 Ouro
-💎 Diamante
+- 🥉 Bronze
+- 🥈 Prata
+- 🥇 Ouro
+- 💎 Diamante
 Depois, no arquivo commands/cargo.py, substitua os IDs dos cargos nas seguintes linhas:
 Linhas 63, 65, 67 e 69 (para adicionar cargos).
 Linhas 91, 93, 95 e 97 (para remover cargos).
