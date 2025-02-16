@@ -46,7 +46,9 @@ Para rodar o bot corretamente, siga os passos abaixo:
 # 2️⃣ Instalar Dependências
 
 No terminal, instale as bibliotecas necessárias:
-pip install discord.py yt-dlp
+
+ ```python
+  pip install discord.py yt-dlp"
 
 # 3️⃣ Configurar Cargos no Servidor
 
